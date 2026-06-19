@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>for 𝒵𝐼𝒵𝒪𝒴 ‹𝟹</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fff7fa,#ffeaf2);
+    color:#444;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:white;
+    border-radius:30px;
+    padding:40px;
+    box-shadow:0 10px 40px rgba(255,182,193,.25);
+}
+
+.music{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #ffd6e5;
+}
+
+.profile h1{
+    margin-top:20px;
+    font-size:3rem;
+    color:#ff6b9d;
+}
+
+.subtitle{
+    color:#888;
+    margin-top:8px;
+}
+
+.line{
+    width:80px;
+    height:4px;
+    background:#ffb6c1;
+    margin:20px auto;
+    border-radius:20px;
+}
+
+.section{
+    margin-top:40px;
+}
+
+.section h2{
+    color:#ff6b9d;
+    margin-bottom:15px;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+}
+
+.quote{
+    margin-top:20px;
+    background:#fff0f5;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    font-style:italic;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.box{
+    background:#fff5f8;
+    padding:20px;
+    border-radius:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.box:hover{
+    transform:translateY(-5px);
+    background:#ffe4ec;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+.love-list{
+    background:#fff5f8;
+    padding:20px;
+    border-radius:20px;
+    line-height:2;
+}
+
+.btn{
+    background:#ff8fb4;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.center{
+    text-align:center;
+}
+
+.footer{
+    margin-top:40px;
+    text-align:center;
+    color:#999;
+}
+
+/* Popup */
+
+.popup{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.5);
+    justify-content:center;
+    align-items:center;
+    z-index:999;
+}
+
+.popup-content{
+    background:white;
+    width:90%;
+    max-width:400px;
+    padding:25px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.popup-content button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    background:#ff8fb4;
+    color:white;
+    cursor:pointer;
+}
+
+.modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.85);
+    justify-content:center;
+    align-items:center;
+    z-index:1000;
+}
+
+.modal img{
+    max-width:90%;
+    max-height:90%;
+    border-radius:20px;
+}
+
+@media(max-width:600px){
+
+.profile h1{
+    font-size:2.2rem;
+}
+
+.profile img{
+    width:140px;
+    height:140px;
+}
+
+.card{
+    padding:25px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<div class="profile">
+
+<img src="d:\zizispace\zizoysayang.jpeg" alt="Jeisha">
+
+<h1>𝔃𝓲𝔃𝓸𝔂 ♡</h1>
+
+<p class="subtitle">for 𝒵𝐼𝒵𝒪𝒴 ‹𝟹</p>
+
+<div class="line"></div>
+
+</div>
+
+<div class="quote">
+"some people become ur favorite place without even being a place."
+</div>
+<div class="section">
+
+<h2>about 𝐻𝑒𝓇</h2>
+
+<p class="about">
+zizoy's someone who makes ordinary days feel special.
+her smile, kindness, and presence have a way of making everything feel a little brighter.
+
+zizoy is someone who makes ordinary days feel special.
+her smile, kindness, and presence have a way of making everything feel a little brighter.
+
+she may not realize it, but the little things she does, the way she laughs, the way she talks, and the way she cares about people mean so much to me.
+
+being with her has given me so many memories that i'll always cherish. from the simplest conversations to the moments we'll probably laugh about years later, every memory with her holds a special place in my heart.
+
+this little website is dedicated to her, not because a website could ever fully describe how amazing she is, but because i wanted to create something that reminds her of how loved, appreciated, and special she truly is.e may not realize it, but the little things she does, the way she laughs, the way she talks, and the way she cares about people mean so much to me.
+
+being with her has given me so many memories that i'll always cherish. from the simplest conversations to the moments we'll probably laugh about years later, every memory with her holds a special place in my heart.
+
+this little website is dedicated to her, not because a website could ever fully describe how amazing she is, but because i wanted to create something that reminds her of how loved, appreciated, and special she truly is.
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>Her Favorites</h2>
+
+<div class="grid">
+
+<div class="box" onclick="showMessage('𝓗𝓮𝓻 favorite color is pink')">
+favorite color
+</div>
+
+<div class="box" onclick="playFavoriteMusic()">
+favorite music
+</div>
+
+</div>
+
+</div> 
+
+<div class="section">
+
+<h2>our memories</h2>
+
+<div class="gallery">
+
+<img src="elriczizoy.jpeg">
+<img src="elriczizoy2.jpeg">
+<img src="elriczizoy3.jpeg">
+
+</div>
+
+</div>
+<div class="section">
+
+<h2>cutie pie</h2>
+
+<video controls width="100%" style="border-radius:20px;">
+    <source src="iangf.mp4" type="video/mp4">
+</video>
+<h2 style="text-align:center;">our memories ♡</h2>
+
+<div style="text-align:center;">
+
+<button class="btn" onclick="openMemories()">
+💗 open memories
+</button>
+
+</div>
+
+<div id="memoryVideos" style="display:none; margin-top:20px;">
+
+    <video controls width="100%" style="border-radius:20px;">
+        <source src="zizoyelric.mp4" type="video/mp4">
+    </video>
+
+    <br><br>
+
+    <img
+        src="keonsuni.jpeg"
+        alt="us"
+        style="
+        width:100%;
+        border-radius:20px;
+        object-fit:cover;
+        ">
+
+</div>
+</div>
+
+<p style="
+text-align:center;
+margin-top:10px;
+color:#888;
+font-style:italic;">
+gorgeous girl in the world i've ever seen :b
+</p>
+
+</div>
+
+<div class="section">
+
+<h2>things i 𝓁𝑜𝓋𝑒 about u</h2>
+
+<div class="love-list">
+
+♡ ur smile <br>
+♡ ur laugh <br>
+♡ ur kindness <br>
+♡ ur voice <br>
+♡ the way u care <br>
+♡ everything that makes u, u <br>
+
+</div>
+
+</div>
+
+<div class="section center">
+
+<h2>secret letter</h2>
+
+<button class="btn" onclick="openLetter()">
+💌 open letter
+</button>
+
+</div>
+
+<div class="footer">
+made with love for 𝓏𝒾𝓏𝑜𝓎 from ᴇʟʀɪᴄ
+</div>
+
+</div>
+
+</div>
+
+<!-- FAVORITES POPUP -->
+
+<div class="popup" id="popup">
+
+<div class="popup-content">
+
+<p id="popupText"></p>
+
+<button onclick="closePopup()">
+Close
+</button>
+
+</div>
+
+</div>
+
+<!-- LETTER -->
+
+<div class="popup" id="letterPopup">
+
+<div class="popup-content">
+
+<h3 style="color:#ff6b9d;margin-bottom:15px;">
+For Jeisha 💗
+</h3>
+
+<p>
+hi zizoy, thank u for being part of my life. thank u for every  smile, every conversation, and every memory we've made together. even the simplest moments feel special when they're spent with u.
+u have a way of making my days better without even trying. ur kindness, ur laugh, ur smile, and the way u care about the people around u are some of the things i admire most about u. im grateful for every moment we've shared together, from the big mrget. 
+i made this website because I wanted you to have something that shows how special u are. not js today, but whenever u come back and read it again. no matter how much time passes, i hope u always remember how appreciated, valued, and loved u are.
+thank u for being u. memories to the small ones that might seem ordinary but mean so much to me. every picture in this little website reminds me of a memory i never want to forget
+
+
+
+with love,
+
+Elric
+
+</p>
+
+<button onclick="closeLetter()">
+Close
+</button>
+
+</div>
+
+</div>
+
+<!-- IMAGE VIEWER -->
+
+<div class="modal" id="imageModal" onclick="closeImage()">
+
+<img id="modalImg">
+
+</div>
+
+<script>
+    function openMemories(){
+
+    const memories = document.getElementById("memoryVideos");
+
+    if(memories.style.display === "none"){
+        memories.style.display = "block";
+    }else{
+        memories.style.display = "none";
+    }
+
+}
+
+function showMessage(text){
+    document.getElementById('popupText').innerText=text;
+    document.getElementById('popup').style.display='flex';
+}
+
+function closePopup(){
+    document.getElementById('popup').style.display='none';
+}
+
+function openLetter(){
+    document.getElementById('letterPopup').style.display='flex';
+}
+
+function closeLetter(){
+    document.getElementById('letterPopup').style.display='none';
+}
+
+const images=document.querySelectorAll('.gallery img');
+
+images.forEach(img=>{
+    img.addEventListener('click',()=>{
+        document.getElementById('modalImg').src=img.src;
+        document.getElementById('imageModal').style.display='flex';
+    });
+});
+function closeImage(){
+    document.getElementById('imageModal').style.display='none';
+}
+
+function playFavoriteMusic(){
+    const music = document.getElementById("favMusic");
+    music.currentTime = 0;
+    music.play();
+
+    showMessage("Champagne Supernova - Oasis");
+}
+
+</script>
+
+<audio id="favMusic">
+    <source src="oasisforlive.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
